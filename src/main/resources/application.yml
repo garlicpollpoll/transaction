@@ -12,11 +12,11 @@ spring:
       hibernate:
         show_sql: true
         format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
 logging:
   level:
     org:
       springframework:
         transaction:
           interceptor: trace
-
 
