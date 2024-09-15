@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://mysql-svc:9000/transaction?serverTimezone=UTC&characterEncoding=UTF-8
+    url: jdbc:mysql://172.31.37.190:30000/transaction?serverTimezone=UTC&characterEncoding=UTF-8
     username: ks
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
